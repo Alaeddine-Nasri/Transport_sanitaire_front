@@ -2,6 +2,9 @@ import React from "react";
 import axios from "axios";
 // import "./form_page.css";
 import "./fullform.css";
+import img1 from "./Assets/photos/landing_iso.png";
+import img2 from "./Assets/photos/Logo.png";
+import img3 from "./Assets/icons/right_arrow.png";
 
 export default class Landing extends React.Component {
   state = {};
@@ -26,22 +29,14 @@ export default class Landing extends React.Component {
                 <div class="landing_button" onclick="chek_mark()">
                   <div>Demander</div>
                   <div class="div_icon">
-                    <img
-                      class="check_icon"
-                      src="./Assets/icons/right_arrow.png"
-                      alt="right_arrow"
-                    />
+                    <img class="check_icon" src={img3} alt="right_arrow" />
                   </div>
                 </div>
               </a>
             </div>
 
             <div class="landingpage_iso">
-              <img
-                class="isoimg"
-                src="./Assets/photos/landing_iso.png"
-                alt="ts"
-              />
+              <img class="isoimg" src={img1} alt="ts" />
             </div>
           </div>
         </section>
@@ -85,11 +80,7 @@ export default class Landing extends React.Component {
               </a>
             </div>
             <div class="about_logo">
-              <img
-                class="about_img"
-                src="./Assets/photos/Logo.png"
-                alt="Logo"
-              />
+              <img class="about_img" src={img2} alt="Logo" />
             </div>
           </div>
         </section>

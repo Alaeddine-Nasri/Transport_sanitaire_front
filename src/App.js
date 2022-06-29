@@ -14,6 +14,7 @@ import Reclamtion from "./components/reclamtion";
 import Demandeform from "./components/Demandeform";
 import Landing from "./components/Landing";
 import Envoyer from "./components/Envoyer";
+import img2 from "./Assets/photos/Logo.png";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <section class="navigation">
         <div class="nav-container">
           <div class="brand">
-            <img src="./Assets/photos/Logo.png" alt="CNAS" />
+            <img src={img2} alt="CNAS" />
           </div>
           <nav>
             <ul class="navlist">

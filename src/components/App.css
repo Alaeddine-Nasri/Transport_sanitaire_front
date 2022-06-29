@@ -1,0 +1,426 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/*********************** Landing page *****************************/
+
+@font-face {
+  font-family: "Montserat_Bold";
+  src: url("./Assets/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserat_regular";
+  src: url("./Assets/fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserat_medium";
+  src: url("./Assets/fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+body {
+  font-family: "Montserat_regular", sans-serif;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/* NAVIGATION BAR STYLE */
+.navigation {
+  position: fixed;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 98%;
+  padding: 2%;
+  padding-top: 40px!important;
+  height: 9%;
+  z-index: 1;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin: 0; */
+  align-items: center;
+  padding-left: 3%;
+  margin-right: 3%;
+  height: 100%;
+}
+.brand img{
+  width: 25%;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 60%;
+}
+
+.navlist {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  list-style-type: none;
+  padding-inline-start: 0px !important;
+  width: 100%;
+  justify-content: space-between;
+  color: black;
+  font-weight: bold;
+}
+
+.navlist li {
+  padding: 2%;
+  text-decoration: none;
+}
+.link{
+  padding: 2%;
+  text-decoration: none;
+  color: #000;
+  
+}
+
+/* LANDING PAGE STYLE */
+
+.landing_page {
+  height: 100vh;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* .blurry-bg::before {
+
+} */
+.landing_container {
+  /* color: white; */
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-image: url("../Assets/photos/dubai.webp"); */
+  /* background-image: url('../Assets/photos/egypt.jpg'); */
+  /* filter: blur(5px); */
+  /* -webkit-filter: blur(3px); */
+  /* backdrop-filter: none; */
+  /*backdrop-filter: blur(5px);*/
+  /* background-position: center; */
+  /* background-size: cover; */
+}
+
+.landing_content {
+  color: #000;
+  position: absolute;
+  /* font-family: "Montserat_Bold"; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.landingpage_iso{
+  margin-left: 50%;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+.isoimg {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landing_title {
+  /* font-family: ; */
+  font-family: "Montserat_Bold", sans-serif;
+  margin-left: 5%;
+  width: 45%;
+  font-size: 70px;
+}
+
+.landing_text {
+  font-family: "Montserat_regular", sans-serif;
+  margin-left: 5%;
+  width: 50%;
+  font-size: 18px;
+}
+
+.landing_button {
+  margin-top: 2%;
+  margin-left: 5%;
+  border-radius: 10px;
+  color: white;
+  width: 12%;
+  height: 60px;
+  background-color: #9FDEE2;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  justify-content: space-between;
+  /* margin: 0; */
+  align-items: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family: "Montserat_Bold", sans-serif;
+}
+
+.div_icon {
+  display: flex;
+  justify-content: end;
+}
+
+.check_icon {
+  width: 30%;
+}
+.button_navbar{
+  background-color: #9FDEE2;
+  padding: 12px!important;
+  padding-left: 20px!important;
+  padding-right: 20px!important;
+  border-radius: 8px;
+  color: white;
+}
+.button_navbar:hover {
+  background-color: #020B49 !important;
+  color: white!important;
+}
+.landing_page{
+  background-color: #fff;
+}
+
+
+
+
+
+/*************************About*****************************/
+
+body {
+  font-family: "Montserat_regular", sans-serif;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/* ABOUT US STYLING */
+.about_page {
+  height: 100vh;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.about_container {
+  color: #000;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5%;
+
+}
+
+.about_content {
+  width: 50%;
+  /* background-color: #dc5203; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-right: 2.5%;
+}
+
+.about_logo {
+  width: 50%;
+  /* margin-left: 2.5%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.about_title {
+  font-family: "Montserat_Bold", sans-serif;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.about_text {
+  font-family: "Montserat_regular", sans-serif;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.about_button {
+  margin-top: 3%;
+  /* margin-left: 5%; */
+  border-radius: 10px;
+  color: white;
+  width: 35%;
+  height: 60px;
+  background-color: #9FDEE2;
+  display: flex;
+  flex-direction: row;
+  /* font-size: 20px; */
+  justify-content: space-between;
+  justify-content: space-between;
+  /* margin: 0; */
+  align-items: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family: "Montserat_Bold", sans-serif;
+}
+
+.about_img {
+  width: 60%;
+  /* margin-top: 20%; */
+  /* margin-left: 20%; */
+}
+.routescss{
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .about_content {
+    width: 90%;
+    /* background-color: #dc5203; */
+    display: flex;
+    margin-left: 5%;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2.5%;
+  }
+  .landb{
+    text-decoration: none;
+  }
+
+ .landb:hover {
+  background-color: #020B49 !important;
+}
+  .about_logo {
+    width: 90%;
+    margin-left: 5%;
+    /* background-color: aqua; */
+  }
+  .about_container {
+    color: #000;
+    width: 90%;
+    height: 100%;
+    display: block;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    margin-left: 5%;
+  }
+  .about_page {
+    height: auto;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+}
+.footer {
+  background-color: #9FDEE2;
+  height: 35vh;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.footer_container {
+  font-family: "Montserat_regular", sans-serif;
+  color: #fff;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: ; */
+  margin-left: 5%;
+}
+.main_footer{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 1%;
+  width: 100%;
+  height: 80%;
+  /* background-color: black; */
+}
+.footer_p1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 45%;
+  height: 80%;
+  /* background-color: aqua; */
+  margin-right: 10%;
+}
+.footer_p2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 45%;
+  height: 80%;
+  /* background-color: blueviolet; */
+  margin-left: 10%;
+}
+.copy_r{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
