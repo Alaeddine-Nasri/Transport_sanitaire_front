@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/Transport_sanitaire_front/static/css/main.70d08abd.css",
-    "main.js": "/Transport_sanitaire_front/static/js/main.492029d6.js",
+    "main.js": "/Transport_sanitaire_front/static/js/main.1a2247d9.js",
     "static/js/787.943af27f.chunk.js": "/Transport_sanitaire_front/static/js/787.943af27f.chunk.js",
     "static/media/wagons.png": "/Transport_sanitaire_front/static/media/wagons.be94f1531fa34dea78d5.png",
     "static/media/Montserrat-Medium.ttf": "/Transport_sanitaire_front/static/media/Montserrat-Medium.3a0917345468c959207a.ttf",
     "static/media/Montserrat-Bold.ttf": "/Transport_sanitaire_front/static/media/Montserrat-Bold.63fae500fdcf19ce83d4.ttf",
     "static/media/Montserrat-Regular.ttf": "/Transport_sanitaire_front/static/media/Montserrat-Regular.ac98a5f5ca71180fe293.ttf",
     "static/media/landing_iso.png": "/Transport_sanitaire_front/static/media/landing_iso.03e36e66d6c63cde8fd0.png",
+    "static/media/Logo.png": "/Transport_sanitaire_front/static/media/Logo.cca1ccc63c1504e00704.png",
     "static/media/bagage.png": "/Transport_sanitaire_front/static/media/bagage.36e2eb815956d6710635.png",
     "static/media/logo.svg": "/Transport_sanitaire_front/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Transport_sanitaire_front/index.html",
     "main.70d08abd.css.map": "/Transport_sanitaire_front/static/css/main.70d08abd.css.map",
-    "main.492029d6.js.map": "/Transport_sanitaire_front/static/js/main.492029d6.js.map",
+    "main.1a2247d9.js.map": "/Transport_sanitaire_front/static/js/main.1a2247d9.js.map",
     "787.943af27f.chunk.js.map": "/Transport_sanitaire_front/static/js/787.943af27f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70d08abd.css",
-    "static/js/main.492029d6.js"
+    "static/js/main.1a2247d9.js"
   ]
 }
